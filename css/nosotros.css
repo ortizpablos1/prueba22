@@ -1,0 +1,61 @@
+header {
+    border: 1px solid red;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    border: 1px solid rgb(1, 242, 226);
+}
+
+footer {
+    border: 1px solid rgb(21, 1, 76);
+}
+
+img {
+    border: 1px solid rgb(0, 158, 13);
+}
+
+nav {
+    border: 1px solid rgb(89, 92, 21);
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+article {
+    background-color: aquamarine;
+    display: flex;
+    text-align: center;
+}
+
+.foto {
+    border-radius: 100%;
+}
+
+.menu2 {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+table,
+thead,
+tr,
+th {
+    border: 1px solid green;
+}

@@ -1,0 +1,33 @@
+section {
+    background-color: aquamarine;
+    border: 1px solid green;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+h1 {
+
+    text-align: center;
+}
+
+form {
+    text-align: center;
+
+}
+
+input {
+    width: 70%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.genero {
+    width: 5%;
+}
+
+fieldset {
+    width: 75%;
+    margin: auto;
+    border-radius: 20px;
+}

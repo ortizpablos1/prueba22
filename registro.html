@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registro.css">
+    <title>Registro</title>
+</head>
+<body>
+    <section>
+        <h1>REGISTRATE</h1>
+        <form action="">
+        <fieldset>
+                <legend>Datos Personales</legend>
+            <label for="nombre">Digite su Nombre:</label><br>
+            <input id="nombre" type="text" placeholder="Ejemplo: Juan">
+            <br>
+            <label for="apellido"> Digite su Apellido: <br>
+                <input id="apellido" type="text" placeholder="Ejemplo: Diaz">
+            </label><br>
+            <label for="usuario"> Digite su Usuario: <br>
+                <input id="usuario" type="text" placeholder="Ejemplo: juandi82">
+            </label><br>
+        </fieldset>
+
+
+        <fieldset>
+                <legend>Datos de Cuenta</legend>
+            <label for="email"> Digite su Email: <br>
+                <input id="email" type="email" placeholder="Ejemplo: juandi82@gmail.com">
+            </label><br>
+            <label for="pass"> Digite su Clave: <br>
+                <input id="pass" type="password" placeholder="Ejemplo: Dsrrs5666$">
+            </label><br>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Seleccione Genero:</legend> <br>
+                <input id="genero" type="radio" class="genero" value="masculino" name="genero"> Masculino
+                <input id="genero" type="radio" class="genero" value="femenino" name="genero"> Femenino
+                <input id="genero" type="radio" class="genero" value="nosabe" name="genero"> No Sabe
+            <br>
+        </fieldset>
+
+        <fieldset>
+                <legend>Seleccione su Pais</legend>      
+            <br>
+                <select name="" id="">
+                    <option value="colombia" name="colombia" >Colombia</option>
+                    <option value="brasil" name="brasil">Brasil</option>
+                    <option value="argentina" name="argentina">Argentina</option>
+                </select>
+            </fieldset>
+            <br>
+            
+            <fieldset>
+                <legend>Adjuntar Documento</legend>
+            <input type="file"><br>
+            </fieldset>
+            <br>
+            <button>Guardar</button>
+            <br>
+
+        </form>
+    </section>
+</body>
+</html>
